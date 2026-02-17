@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>सरकारी परीक्षा जानकारी | India's No.1 Exam Information Portal</title>
-    <meta name="description" content="SSC, Railway, Banking, Defence सहित सभी सरकारी परीक्षाओं की पूरी जानकारी - नोटिफिकेशन, सिलेबस, पिछले पेपर, तैयारी टिप्स और लेटेस्ट अपडेट">
-    <meta name="keywords" content="government exams India, ssc exam, railway exam, banking exam, defence exam, state exams, exam notification">
     
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="सरकारी परीक्षा जानकारी">
-    <meta property="og:description" content="Complete information about Indian Government Exams">
+    <!-- SEO Meta Tags -->
+    <title>सरकारी परीक्षा जानकारी 2026 | SSC, Railway, Banking, Defence Exams</title>
+    <meta name="description" content="India's No.1 platform for Government Exam Information. SSC CGL, RRB NTPC, IBPS PO, NDA और सभी राज्य परीक्षाओं की पूरी जानकारी हिंदी और इंग्लिश में।">
+    <meta name="keywords" content="government exams, ssc exam, railway exam, banking exam, defence exam, sarkari naukri, exam notification">
+    <meta name="author" content="Sarkari Exam Information">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Tags (Facebook/WhatsApp) -->
+    <meta property="og:title" content="सरकारी परीक्षा जानकारी 2026">
+    <meta property="og:description" content="SSC, Railway, Banking, Defence - सभी परीक्षाओं की एक ही जगह पूरी जानकारी">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sarkariexam.info">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     
     <!-- Schema Markup -->
     <script type="application/ld+json">
@@ -19,98 +31,346 @@
         "@type": "WebSite",
         "name": "सरकारी परीक्षा जानकारी",
         "url": "https://www.sarkariexam.info",
-        "description": "Complete Government Exam Information Portal"
+        "description": "Complete Government Exam Information Portal",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.sarkariexam.info/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
     }
     </script>
-    
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <!-- Header with Navigation -->
+    <!-- HEADER SECTION -->
     <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="date-display">📅 16 February 2026 | शुभ समाचार</div>
+                <div class="social-links">
+                    <a href="#">📘</a>
+                    <a href="#">📱</a>
+                    <a href="#">📧</a>
+                </div>
+            </div>
+        </div>
+        
         <nav class="navbar">
-            <div class="logo">
-                <a href="/">सरकारी परीक्षा जानकारी</a>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-main">सरकारी परीक्षा</span>
+                        <span class="logo-sub">जानकारी</span>
+                    </a>
+                </div>
+                
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <form action="search.html" method="get">
+                        <input type="text" name="q" placeholder="परीक्षा खोजें... (SSC, Railway, Banking)" required>
+                        <button type="submit">🔍</button>
+                    </form>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">होम</a></li>
+                    <li><a href="exams/">परीक्षाएं</a></li>
+                    <li><a href="blog/">ब्लॉग/न्यूज़</a></li>
+                    <li><a href="pyqs/">PYQs</a></li>
+                    <li><a href="about.html">हमारे बारे में</a></li>
+                    <li><a href="contact.html">संपर्क करें</a></li>
+                </ul>
+                
+                <!-- Mobile Menu Button -->
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <div class="search-bar">
-                <input type="text" id="searchInput" placeholder="परीक्षा का नाम खोजें... (SSC, Railway, IBPS)">
-                <button onclick="searchExam()">🔍</button>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="/" class="active">Home</a></li>
-                <li><a href="/exams/">Exams</a></li>
-                <li><a href="/blog/">Blog/News</a></li>
-                <li><a href="/pyqs/">PYQs</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-            <div class="hamburger">☰</div>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>भारत की सभी सरकारी परीक्षाओं की पूरी जानकारी</h1>
-        <p>SSC, Railway, Banking, Defence और State Exams के लिए एक ही प्लेटफॉर्म</p>
+    <!-- HERO BANNER SECTION -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>भारत की सभी सरकारी परीक्षाओं की <span>पूरी जानकारी</span> एक ही जगह</h1>
+                <p>SSC, Railway, Banking, Defence, State Exams - नोटिफिकेशन, सिलेबस, पिछले पेपर, तैयारी टिप्स</p>
+                
+                <!-- Quick Stats -->
+                <div class="quick-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">परीक्षाएं</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">लेटेस्ट अपडेट</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">मुफ्त जानकारी</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Top Exams Grid -->
+    <!-- TOP EXAMS SECTION -->
     <section class="top-exams">
-        <h2>प्रमुख परीक्षाएं</h2>
-        <div class="exam-grid">
-            <div class="exam-card">
-                <h3>SSC Exams</h3>
-                <p>CGL, CHSL, MTS, GD, JE, Stenographer</p>
-                <a href="/exams/ssc-cgl.html" class="btn-view">View Details →</a>
+        <div class="container">
+            <div class="section-header">
+                <h2>🇮🇳 प्रमुख सरकारी परीक्षाएं</h2>
+                <p>यहां क्लिक करें और पाएं पूरी जानकारी</p>
             </div>
-            <div class="exam-card">
-                <h3>Railway Exams</h3>
-                <p>RRB NTPC, Group D, ALP, JE, SSE</p>
-                <a href="/exams/railway-rrb.html" class="btn-view">View Details →</a>
-            </div>
-            <div class="exam-card">
-                <h3>Banking Exams</h3>
-                <p>IBPS PO, Clerk, SO, RRB, SBI PO</p>
-                <a href="/exams/banking-ibps.html" class="btn-view">View Details →</a>
-            </div>
-            <div class="exam-card">
-                <h3>Defence Exams</h3>
-                <p>NDA, CDS, AFCAT, CAPF, TA</p>
-                <a href="/exams/defence-nda.html" class="btn-view">View Details →</a>
-            </div>
-            <div class="exam-card">
-                <h3>State Exams</h3>
-                <p>UPSC, UPPSC, BPSC, MPPSC, Rajasthan</p>
-                <a href="/exams/state-exams.html" class="btn-view">View Details →</a>
+            
+            <div class="exam-grid">
+                <!-- SSC Card -->
+                <div class="exam-card">
+                    <div class="card-icon">📋</div>
+                    <h3>SSC Exams</h3>
+                    <p class="exam-count">8 परीक्षाएं</p>
+                    <ul>
+                        <li>SSC CGL 2026</li>
+                        <li>SSC CHSL 2026</li>
+                        <li>SSC MTS 2026</li>
+                        <li>SSC GD Constable</li>
+                    </ul>
+                    <a href="exams/ssc-cgl.html" class="btn-view">SSC CGL देखें →</a>
+                </div>
+                
+                <!-- Railway Card -->
+                <div class="exam-card">
+                    <div class="card-icon">🚂</div>
+                    <h3>Railway Exams</h3>
+                    <p class="exam-count">5 परीक्षाएं</p>
+                    <ul>
+                        <li>RRB NTPC 2026</li>
+                        <li>RRB Group D</li>
+                        <li>RRB ALP</li>
+                        <li>RRB JE</li>
+                    </ul>
+                    <a href="exams/railway-rrb.html" class="btn-view">RRB NTPC देखें →</a>
+                </div>
+                
+                <!-- Banking Card -->
+                <div class="exam-card">
+                    <div class="card-icon">🏦</div>
+                    <h3>Banking Exams</h3>
+                    <p class="exam-count">6 परीक्षाएं</p>
+                    <ul>
+                        <li>IBPS PO 2026</li>
+                        <li>IBPS Clerk</li>
+                        <li>SBI PO 2026</li>
+                        <li>RBI Grade B</li>
+                    </ul>
+                    <a href="exams/banking-ibps.html" class="btn-view">IBPS PO देखें →</a>
+                </div>
+                
+                <!-- Defence Card -->
+                <div class="exam-card">
+                    <div class="card-icon">⚔️</div>
+                    <h3>Defence Exams</h3>
+                    <p class="exam-count">4 परीक्षाएं</p>
+                    <ul>
+                        <li>NDA 2026</li>
+                        <li>CDS 2026</li>
+                        <li>AFCAT</li>
+                        <li>CAPF</li>
+                    </ul>
+                    <a href="exams/defence-nda.html" class="btn-view">NDA देखें →</a>
+                </div>
+                
+                <!-- State Exams Card -->
+                <div class="exam-card">
+                    <div class="card-icon">🏛️</div>
+                    <h3>State Exams</h3>
+                    <p class="exam-count">15+ राज्य</p>
+                    <ul>
+                        <li>UPSC/UPPSC</li>
+                        <li>BPSC 2026</li>
+                        <li>MPPSC</li>
+                        <li>Rajasthan Exams</li>
+                    </ul>
+                    <a href="exams/state-exams.html" class="btn-view">सभी देखें →</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Latest Notifications -->
-    <section class="latest-notifications">
-        <h2>📢 Latest Notifications & Updates</h2>
-        <div class="notification-list">
-            <div class="notification-item">
-                <span class="date">16 Feb 2026</span>
-                <a href="/blog/ssc-cgl-2026-notification.html">SSC CGL 2026 Notification Released - Apply Now</a>
+    <!-- LATEST NOTIFICATIONS SECTION -->
+    <section class="notifications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>📢 लेटेस्ट नोटिफिकेशन और अपडेट</h2>
+                <a href="blog/" class="view-all">सभी देखें →</a>
             </div>
-            <div class="notification-item">
-                <span class="date">15 Feb 2026</span>
-                <a href="/blog/rrb-ntpc-admit-card.html">RRB NTPC Admit Card 2026 Released</a>
-            </div>
-            <div class="notification-item">
-                <span class="date">14 Feb 2026</span>
-                <a href="/blog/ibps-po-result.html">IBPS PO 2025 Final Result Declared</a>
+            
+            <div class="notification-list">
+                <!-- Notification 1 -->
+                <div class="notification-item">
+                    <span class="date">16 Feb 2026</span>
+                    <span class="badge new">नया</span>
+                    <div class="content">
+                        <h4><a href="blog/ssc-cgl-2026-notification.html">SSC CGL 2026 Notification Released - 8500+ पदों पर भर्ती</a></h4>
+                        <p>आवेदन शुरू: 20 फरवरी 2026, अंतिम तिथि: 20 मार्च 2026</p>
+                    </div>
+                </div>
+                
+                <!-- Notification 2 -->
+                <div class="notification-item">
+                    <span class="date">15 Feb 2026</span>
+                    <span class="badge">अपडेट</span>
+                    <div class="content">
+                        <h4><a href="blog/rrb-ntpc-admit-card.html">RRB NTPC Admit Card 2026 जारी - यहां से डाउनलोड करें</a></h4>
+                        <p>परीक्षा तिथि: 25 फरवरी से 15 मार्च 2026</p>
+                    </div>
+                </div>
+                
+                <!-- Notification 3 -->
+                <div class="notification-item">
+                    <span class="date">14 Feb 2026</span>
+                    <div class="content">
+                        <h4><a href="blog/ibps-po-result.html">IBPS PO 2025 Final Result Declared - लिस्ट देखें</a></h4>
+                        <p>चयनित उम्मीदवारों की सूची जारी</p>
+                    </div>
+                </div>
+                
+                <!-- Notification 4 -->
+                <div class="notification-item">
+                    <span class="date">13 Feb 2026</span>
+                    <div class="content">
+                        <h4><a href="blog/nda-apply.html">NDA 2026 Application Form - 15 फरवरी से शुरू</a></h4>
+                        <p>योग्यता: 12वीं पास, आयु: 16.5 से 19.5 वर्ष</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- QUICK LINKS SECTION -->
+    <section class="quick-links">
+        <div class="container">
+            <div class="links-grid">
+                <a href="pyqs/" class="link-card">
+                    <span class="icon">📚</span>
+                    <span class="title">पिछले पेपर (PYQs)</span>
+                    <span class="desc">सभी परीक्षाओं के PDF</span>
+                </a>
+                <a href="blog/exam-tips.html" class="link-card">
+                    <span class="icon">💡</span>
+                    <span class="title">तैयारी टिप्स</span>
+                    <span class="desc">एक्सपर्ट से जानें</span>
+                </a>
+                <a href="blog/syllabus.html" class="link-card">
+                    <span class="icon">📖</span>
+                    <span class="title">सिलेबस</span>
+                    <span class="desc">Topic-wise syllabus</span>
+                </a>
+                <a href="blog/admit-card.html" class="link-card">
+                    <span class="icon">🎫</span>
+                    <span class="title">एडमिट कार्ड</span>
+                    <span class="desc">Direct download link</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY US SECTION -->
+    <section class="why-us">
+        <div class="container">
+            <h2>हम पर भरोसा क्यों?</h2>
+            <div class="features">
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <h3>100% सटीक जानकारी</h3>
+                    <p>सरकारी वेबसाइट से वेरिफाइड</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">⚡</span>
+                    <h3>सबसे तेज अपडेट</h3>
+                    <p>नोटिफिकेशन जारी होते ही</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">📱</span>
+                    <h3>मोबाइल फ्रेंडली</h3>
+                    <p>कहीं भी, कभी भी देखें</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🆓</span>
+                    <h3>बिल्कुल मुफ्त</h3>
+                    <p>कोई चार्ज नहीं</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h3>📧 नए नोटिफिकेशन सबसे पहले पाएं</h3>
+                <p>सभी परीक्षाओं के लेटेस्ट अपडेट सीधे अपने ईमेल में पाएं</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="अपना ईमेल दर्ज करें" required>
+                    <button type="submit">सब्सक्राइब करें</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p>© 2026 सरकारी परीक्षा जानकारी. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>सरकारी परीक्षा जानकारी</h4>
+                    <p>भारत का नंबर 1 एग्जाम इन्फॉर्मेशन पोर्टल। हमारा मकसद है हर स्टूडेंट तक सही और सटीक जानकारी पहुंचाना।</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>प्रमुख परीक्षाएं</h4>
+                    <ul>
+                        <li><a href="exams/ssc-cgl.html">SSC CGL</a></li>
+                        <li><a href="exams/railway-rrb.html">RRB NTPC</a></li>
+                        <li><a href="exams/banking-ibps.html">IBPS PO</a></li>
+                        <li><a href="exams/defence-nda.html">NDA</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>महत्वपूर्ण लिंक</h4>
+                    <ul>
+                        <li><a href="about.html">हमारे बारे में</a></li>
+                        <li><a href="contact.html">संपर्क करें</a></li>
+                        <li><a href="privacy.html">प्राइवेसी पॉलिसी</a></li>
+                        <li><a href="sitemap.xml">साइटमैप</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>संपर्क करें</h4>
+                    <ul>
+                        <li>📧 info@sarkariexam.info</li>
+                        <li>📱 9876543210</li>
+                        <li>📝 हमसे जुड़ें:</li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#">📘</a>
+                        <a href="#">📱</a>
+                        <a href="#">📺</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2026 सरकारी परीक्षा जानकारी। सभी अधिकार सुरक्षित।</p>
+            </div>
+        </div>
     </footer>
 
+    <!-- JavaScript -->
     <script src="js/main.js"></script>
 </body>
-</html>
+                        </html>
